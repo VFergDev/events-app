@@ -90,7 +90,7 @@ export default function AddVenue({ onSuccess }: AddVenueProps) {
       {/* Description Textarea */}
       <Textarea
         placeholder="Describe the venue"
-        value={name}
+        value={description}
         onChange={(e) => setDescription(e.target.value)}
       />
 
